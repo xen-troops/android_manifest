@@ -7,7 +7,14 @@ doma.xml - Android manifest based on Pie 9.0.0_r3 branch for Xenvm device
 Please follow general rules/dependencies from : https://source.android.com/setup/build/downloading
 
 
+For downloading opensource projects use:
+
 `repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-xt0.2`
+
+For downloading opensource and internal projects use:
+
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-xt0.2 -g all`
+
 
 `repo sync -c -jXXX`
 
