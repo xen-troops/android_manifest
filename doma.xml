@@ -30,6 +30,7 @@
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" />
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
+  <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
 
   <!-- AOSP projects -->
   <project path="build/make" name="platform/build" groups="pdk" >
