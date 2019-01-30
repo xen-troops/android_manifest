@@ -15,6 +15,12 @@
  <remote   name="freedesktop-libdrm"
            fetch="https://gitlab.freedesktop.org/"
            revision="refs/tags/libdrm-2.4.97" />
+
+  <remote  name="linaro-swg"
+           fetch="https://github.com/linaro-swg/" />
+
+  <remote  name="op-tee"
+           fetch="https://github.com/OP-TEE/" />
   
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
@@ -39,6 +45,11 @@
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
+
+  <!-- Security -->
+  <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="master" />
+  <project path="vendor/linaro/optee_client" name="optee_client" remote="op-tee" revision="master" />
+  <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="master" />
 
   <!-- AOSP projects -->
   <project path="build/make" name="platform/build" groups="pdk" >
