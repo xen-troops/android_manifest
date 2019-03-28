@@ -9,11 +9,11 @@ Please follow general rules/dependencies from : https://source.android.com/setup
 
 For downloading opensource projects use:
 
-`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-xt0.2`
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-xt1.0`
 
 For downloading opensource and internal projects use:
 
-`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-xt0.2 -g all`
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-xt1.0 -g all`
 
 
 `repo sync -c -jXXX`
