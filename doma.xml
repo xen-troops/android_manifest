@@ -54,7 +54,7 @@
   <project groups="notdefault" name="google_apps_proprietary" path="vendor/Google" remote="epam" revision="96d103cd568a66d0f32256f43abe0b838fde7721" upstream="master"/>
   <project groups="vts,pdk" name="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" upstream="refs/tags/android-9.0.0_r3"/>
   <project name="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" upstream="refs/tags/android-9.0.0_r3"/>
-  <project name="linux" path="device/xen/kernel" remote="github" revision="02b9764d331f72b81527703ebd3eb48ef29d5df0" upstream="android-4.14-p-release-xt0.3"/>
+  <project name="linux" path="device/xen/kernel" remote="github" revision="e9119d710b4a6d0ff525c4233f6618a5181499d3" upstream="android-4.14-p-release-xt0.3"/>
   <project groups="pdk" name="platform/art" path="art" revision="b151df35115c546fd72107de43dd5e3a4a7f6bd4" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="196632fb3c59ebbf1184d791a3e7124dd0c3f22b" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" upstream="refs/tags/android-9.0.0_r3"/>
@@ -696,7 +696,7 @@
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="241b580aec1347a287cf939fe63aa4f32af2ee8e" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" upstream="refs/tags/android-9.0.0_r3"/>
-  <project groups="notdefault" name="pvr_km_vgpu_img" path="vendor/imagination/rogue_km" remote="epam" revision="00eeb4d5842663538bf5df0a9d2cdb46c488f4ca" upstream="1.10/ED5187610-5.1.3-9.0.0_r3-xt0.1"/>
+  <project groups="notdefault" name="pvr_km_vgpu_img" path="vendor/imagination/rogue_km" remote="epam" revision="c04667778b5147abdd48a22f4f448a768636a79c" upstream="1.10/ED5187610-5.1.3-9.0.0_r3-xt0.1"/>
   <project groups="notdefault" name="pvr_um_vgpu_img" path="vendor/imagination/rogue_um" remote="epam" revision="8699b6bd692e8b4de769437b016462c66d8378e0" upstream="1.10/ED5187610-5.1.3-9.0.0_r3-xt0.1"/>
   <project name="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" upstream="refs/tags/android-9.0.0_r3"/>
