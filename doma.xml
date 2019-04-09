@@ -11,6 +11,10 @@
   <remote  name="epam"
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/"
            revision="1.10/ED5187610-5.1.3-9.0.0_r3-xt0.1" />
+
+ <remote   name="freedesktop-libdrm"
+           fetch="https://gitlab.freedesktop.org/"
+           revision="refs/tags/libdrm-2.4.97" />
   
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
@@ -26,6 +30,9 @@
 
   <!-- AOSP projects with changes -->
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-9.0.0_r3-xt0.3" />
+
+  <!-- Freedesktop projects -->
+  <project path="external/libdrm" name="mesa/drm" groups="pdk" remote="freedesktop-libdrm" />
 
   <!-- Internal projects -->
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" />
@@ -233,7 +240,6 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
