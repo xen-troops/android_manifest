@@ -32,7 +32,7 @@
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
   <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" />
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
-  <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-p-release-xt0.3" />
+  <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-p-release-xt0.3-rcar-ion" />
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
 
   <!-- AOSP projects with changes -->
@@ -42,7 +42,7 @@
   <project path="external/libdrm" name="mesa/drm" groups="pdk" remote="freedesktop-libdrm" />
 
   <!-- Internal projects -->
-  <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" />
+  <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.10/ED5187610-5.1.3-9.0.0_r3-rcar-ion" />
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
