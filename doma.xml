@@ -33,6 +33,7 @@
   <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" />
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
   <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-p-release-xt0.3" />
+  <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
 
   <!-- AOSP projects with changes -->
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-9.0.0_r3-xt0.3" />
