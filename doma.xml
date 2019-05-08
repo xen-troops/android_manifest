@@ -9,7 +9,7 @@
   
   <default remote="aosp" revision="refs/tags/android-9.0.0_r3" sync-j="4"/>
   
-  <project name="android_device_xenvm" path="device/xen/xenvm" remote="github" revision="44d6c38cb3601fbd33eaf001e8c72d9be9a2dca2" upstream="android-9.0.0_r3-master"/>
+  <project name="android_device_xenvm" path="device/xen/xenvm" remote="github" revision="57bc1f0bb5989f95517d84f03e9922ed8b16220c" upstream="android-9.0.0_r3-master"/>
   <project groups="drm_hwcomposer,pdk-fs" name="android_external_drm_hwcomposer" path="external/drm_hwcomposer" remote="github" revision="dfbdcd138a61db49812475759db585cdfc53302b" upstream="android-9.0.0_r3-xt0.3"/>
   <project groups="notdefault" name="android_meta_embedded_toolkit" path="prebuilts/imagination/metag/2.8" remote="epam" revision="06cfd1b79fc75514f45038efe9e1020885bacc5e" upstream="master"/>
   <project name="android_vendor_xen_audio" path="vendor/xen/audio" remote="github" revision="1383d6ec699d712d44cce020cc64e4459c3b324b" upstream="android-9.0.0_r3-master"/>
