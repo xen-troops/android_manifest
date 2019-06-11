@@ -32,7 +32,7 @@
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
   <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" />
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
-  <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-p-release-xt0.3" />
+  <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-p-release-master" />
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
 
   <!-- AOSP projects with changes -->
