@@ -6,26 +6,30 @@ doma.xml - Android manifest based on Pie 9.0.0_r3 branch for Xenvm device
 
 Please follow general rules/dependencies from : https://source.android.com/setup/build/downloading
 
+Also install
+
+`sudo apt install bc`
 
 For downloading opensource projects use:
 
 `repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-master`
 
-For downloading opensource and internal projects use:
+For downloading opensource and internal projects (you need appropriate access rights) use:
 
 `repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-master -g all`
 
+And after init for both options (increase or decrease -jXXX depending on your bandwidth):
 
-`repo sync -c -jXXX`
+`repo sync -c -j16`
 
 
 **Establishing a Build Environment:**
 
-`export TARGET_BOARD_PLATFORM=r8a7796 or r8a7795`
-
-`export OUT_DIR=/media/Pie_OUT`
-
-`export PRODUCT_OUT=${OUT_DIR}/target/product/xenvm`
+```
+export TARGET_BOARD_PLATFORM=r8a7796 or r8a7795
+export OUT_DIR=/media/Pie_OUT
+export PRODUCT_OUT=${OUT_DIR}/target/product/xenvm
+```
 
 *In case H3 2.0 SIP:*
 
@@ -35,9 +39,10 @@ For downloading opensource and internal projects use:
 
 In case DDK KM prebuilt:
 
-`export DDK_KM_PREBUILT_MODULE=/media/prebuilts/pvr-km/pvrsrvkm.ko`
-
-`export TARGET_PREBUILT_KERNEL=/media/prebuilts/kernel/Image`
+```
+export DDK_KM_PREBUILT_MODULE=/media/prebuilts/pvr-km/pvrsrvkm.ko
+export TARGET_PREBUILT_KERNEL=/media/prebuilts/kernel/Image
+```
 
 In case of DDK KM source build, please copy DDK KM source code into:
 
@@ -50,11 +55,11 @@ In case DDK UM prebuilt:
 
 **Build Android:**
 
-`. build/envsetup.sh`
-
-`lunch xenvm-userdebug`
-
-`make -jXXXX`
+```
+. build/envsetup.sh
+lunch xenvm-userdebug
+make -j$(grep -c ^processor /proc/cpuinfo)
+```
 
 
 **Using own internal projects for full source build**
