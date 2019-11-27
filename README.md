@@ -1,6 +1,6 @@
 This is manifest project, for building Android OS as Xen guest.
 
-doma.xml - Android manifest based on Pie 9.0.0_r3 branch for Xenvm device
+doma.xml - Android manifest based on Pie 10.0.0_r3 branch for Xenvm device
 
 **Downloading the Source:**
 
@@ -12,11 +12,11 @@ Also install
 
 For downloading opensource projects use:
 
-`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-master`
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-10.0.0_r3-master`
 
 For downloading opensource and internal projects (you need appropriate access rights) use:
 
-`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-9.0.0_r3-master -g all`
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-10.0.0_r3-master -g all`
 
 And after init for both options (increase or decrease -jXXX depending on your bandwidth):
 
