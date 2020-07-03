@@ -39,7 +39,7 @@
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="glmark-prebuilt" />
 
   <!-- AOSP projects with changes -->
-  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-10.0.0_r3-xt0.2" />
+  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-10.0.0_r3-xt0.3" />
 
   <!-- Freedesktop projects -->
   <!-- <project path="external/libdrm" name="mesa/drm" groups="pdk" remote="freedesktop-libdrm" /> -->
