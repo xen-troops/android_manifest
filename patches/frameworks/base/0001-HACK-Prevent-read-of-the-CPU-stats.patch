@@ -1,0 +1,27 @@
+From c27594e7321bcc67f35de577a1704c0abb3bc9ba Mon Sep 17 00:00:00 2001
+From: Andrii Chepurnyi <andrii_chepurnyi@epam.com>
+Date: Tue, 18 Aug 2020 19:37:50 +0300
+Subject: [PATCH] HACK: Prevent read of the CPU stats
+
+Signed-off-by: Andrii Chepurnyi <andrii_chepurnyi@epam.com>
+Change-Id: I785cb121f63226b91436b073e1c3bf6c8b7e4cdf
+---
+ core/java/com/android/internal/os/ProcTimeInStateReader.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/core/java/com/android/internal/os/ProcTimeInStateReader.java b/core/java/com/android/internal/os/ProcTimeInStateReader.java
+index 2318473354e..d7273cdd222 100644
+--- a/core/java/com/android/internal/os/ProcTimeInStateReader.java
++++ b/core/java/com/android/internal/os/ProcTimeInStateReader.java
+@@ -160,7 +160,7 @@ public class ProcTimeInStateReader {
+      */
+     private void initializeTimeInStateFormat(final Path timeInStatePath) throws IOException {
+         // Read the bytes of the `time_in_state` file
+-        byte[] timeInStateBytes = Files.readAllBytes(timeInStatePath);
++        byte[] timeInStateBytes = new byte[0];
+ 
+         // Iterate over the lines of the time_in_state file, for each one adding a line to the
+         // formats. These formats are used to extract either the frequencies or the times from a
+-- 
+2.17.1
+

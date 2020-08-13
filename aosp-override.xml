@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/external/drm_hwcomposer"/>
+
+  <extend-project name="platform/external/e2fsprogs" revision="9fa6bed983d5ddd7226af647a0c4c0d922227be4"/>
+  <extend-project name="platform/external/linux-kselftest" revision="db3a9fa235b35199b31b6e056c5e853e017554fc"/>
+  <extend-project name="platform/external/seccomp-tests" revision="f109fb9e5705801c4ab8400df9cc9d68d8132022"/>
+  <extend-project name="platform/external/gptfdisk" revision="cf717ee0ccb21e5d16781ea5f67cd4fa91afaa51"/>
+  <extend-project name="platform/external/chromium-libpac" revision="dcb30f1c94e17d6e12966da4cee0e088e4565232"/>
+  <extend-project name="platform/packages/apps/Bluetooth" revision="98745e510804e4c5eb2da92280d62ccaae17ed90"/>
+  <extend-project name="platform/libcore" revision="ba9bb610da1030ef698d676cc27244965b67ad0a"/>
+  <extend-project name="platform/prebuilts/tools" revision="56577d09842c3a37bb38f076e7f8b574ab3b9d27"/>
+  <extend-project name="platform/packages/apps/Bluetooth" revision="d08243c37cb8aa975fac6ad25e9538c0123c77a9"/>
+
+</manifest>

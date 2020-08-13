@@ -1,0 +1,42 @@
+<manifest>
+
+  <remote  name="github" fetch="ssh://git@github.com/xen-troops/"
+           revision="android-10.0.0_r3-master" />
+
+  <remote  name="epam"
+           fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
+
+  <remote  name="linaro-swg"
+           fetch="https://github.com/linaro-swg/" />
+
+  <remote  name="op-tee"
+           fetch="https://github.com/OP-TEE/" />
+
+  <!-- Xenvm projects -->
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" />
+  <project path="vendor/xen/audio" name="android_vendor_xen_audio" remote="github" />
+  <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
+  <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" />
+  <project path="vendor/xen/libvisclient" name="libvisclient" remote="github" />
+  <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
+  <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-q-release-master" />
+  <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
+  <!-- <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" /> -->
+  <project path="vendor/glmark2" name="glmark2" remote="github" revision="glmark-prebuilt" />
+
+  <!-- AOSP projects with changes -->
+  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-10.0.0_r3-xt0.3" />
+
+  <!-- Internal projects -->
+  <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-10.0.0_r3-xt0.1-prebuilds"/>
+  <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-10.0.0_r3-xt0.2" />
+  <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" groups="notdefault" remote="epam" revision="linaro-7.3.1" />
+  <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
+
+  <!-- Security -->
+  <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="4046e67356f96b90e43f92c76599001d81ab84f9" />
+  <project path="vendor/linaro/optee_client" name="optee_client" remote="op-tee" revision="be4fa2e36f717f03ca46e574aa66f697a897d090" />
+  <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="master" />
+
+</manifest>
