@@ -1,7 +1,7 @@
 <manifest>
 
   <remote  name="github" fetch="ssh://git@github.com/xen-troops/"
-           revision="android-10.0.0_r3-master" />
+           revision="android-11-master" />
 
   <remote  name="epam"
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
