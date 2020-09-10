@@ -4,7 +4,6 @@
   <remote  name="arminn" fetch="ssh://git@github.com/arminn/"
            revision="android-10.0.0_r3-master" />
 
-  <extend-project name="android_device_xenvm"  remote="arminn" revision="android-r-beta-3-master"/>
   <extend-project name="linux"  remote="arminn" revision="android-r-beta-3-master"/>
   <extend-project name="pvr_km_vgpu_img" revision="MR_5375571-7.1.0-10.0.0_r3-xt0.2"/>
 
