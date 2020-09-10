@@ -21,7 +21,7 @@
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
   <project path="device/xen/kernel" name="linux" remote="github" revision="android-4.14-q-release-master" />
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
-  <!-- <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" /> -->
+  <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" />
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="glmark-prebuilt" />
 
   <!-- AOSP projects with changes -->
