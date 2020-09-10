@@ -1,4 +1,5 @@
 This is manifest project, for building Android OS as Xen guest.
+Based on android-mainline-11.0.0_r1 AOSP manifest.
 
 
 **Downloading the Source:**
@@ -11,27 +12,15 @@ Also install
 
 For downloading opensource projects use:
 
-`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-r-beta-3-master`
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-11-master`
 
 For downloading opensource and internal projects (you need appropriate access rights) use:
 
-`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-r-beta-3-master -g all`
+`repo init -u https://github.com/xen-troops/android_manifest.git -m doma.xml -b android-11-master -g all`
 
 And after init for both options (increase or decrease -jXXX depending on your bandwidth):
 
 `repo sync -c -j16`
-
-Apply specific patches:
-
-```
-pushd frameworks/base
-git am ../../.repo/manifests/patches/frameworks/base/0001-Bluetooth-MCE-Add-new-API-to-set-message-read-status.patch
-git am ../../.repo/manifests/patches/frameworks/base/0001-HACK-Prevent-read-of-the-CPU-stats.patch
-popd
-pushd build/soong
-git am  ../../.repo/manifests/patches/build/soong/0001-HACK-Prevent-soong-crash.patch
-popd
-```
 
 
 **Establishing a Build Environment:**
