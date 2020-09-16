@@ -23,6 +23,7 @@
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
   <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" />
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="glmark-prebuilt" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" remote="github" revision="linaro-7.3.1" />
 
   <!-- AOSP projects with changes -->
   <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-10.0.0_r3-xt0.3" />
@@ -31,7 +32,6 @@
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-10.0.0_r3-xt0.1-prebuilds"/>
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-10.0.0_r3-xt0.2" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" groups="notdefault" remote="epam" revision="linaro-7.3.1" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
 
   <!-- Security -->
