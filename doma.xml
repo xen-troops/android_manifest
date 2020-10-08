@@ -63,7 +63,7 @@
   <project name="linux" path="device/xen/kernel" remote="github" revision="9d73967ba6a2b4e93b7915b32bd11e2cb531c8bc" upstream="android-4.14-p-release-master"/>
   <project groups="pdk" name="mesa/drm" path="external/libdrm" remote="freedesktop-libdrm" revision="b7a7a90336fbb19efb3f91f92b5d964b0dfb7ec2" upstream="refs/tags/libdrm-2.4.97"/>
   <project name="optee_client" path="vendor/linaro/optee_client" remote="op-tee" revision="be4fa2e36f717f03ca46e574aa66f697a897d090"/>
-  <project name="optee_os" path="vendor/xen/optee_os" remote="github" revision="4579fd7a66721bc5c7a4912c2e2a65e5684943cf" upstream="master"/>
+  <project name="optee_os" path="vendor/xen/optee_os" remote="github" revision="4579fd7a66721bc5c7a4912c2e2a65e5684943cf" upstream="3.4-xt"/>
   <project groups="pdk" name="platform/art" path="art" revision="b151df35115c546fd72107de43dd5e3a4a7f6bd4" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="196632fb3c59ebbf1184d791a3e7124dd0c3f22b" upstream="refs/tags/android-9.0.0_r3"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" upstream="refs/tags/android-9.0.0_r3"/>
