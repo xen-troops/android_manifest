@@ -26,15 +26,12 @@ And after init for both options (increase or decrease -jXXX depending on your ba
 **Establishing a Build Environment:**
 
 ```
-export TARGET_BOARD_PLATFORM=r8a7796 or r8a7795
+export TARGET_BOARD_PLATFORM=r8a7795
 export OUT_DIR=/media/Pie_OUT
 export PRODUCT_OUT=${OUT_DIR}/target/product/xenvm
 export HOST_PYTHON=$(dirname $PYTHON)
 ```
 
-*In case H3 2.0 SIP:*
-
-`export TARGET_SOC_REVISION=es2`
 
 *Building with prebuilts:*
 
