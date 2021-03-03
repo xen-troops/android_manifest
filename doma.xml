@@ -9,7 +9,7 @@
   
   <default remote="aosp" revision="refs/tags/android-10.0.0_r3" sync-j="4"/>
 
-  <project name="android_device_xenvm" path="device/xen/xenvm" remote="github" revision="a96331ea98a3438767d2ebd65913df0fa38d263a" upstream="android-10.0.0_r3-master"/>
+  <project name="android_device_xenvm" path="device/xen/xenvm" remote="github" revision="cb61629be7a7f8a4b5213a566085131778be697a" upstream="tu-demo-2019"/>
   <project groups="drm_hwcomposer,pdk-fs" name="android_external_drm_hwcomposer" path="external/drm_hwcomposer" remote="github" revision="4b0e56b9b63a3389812b17fdbab2325e4e499ab2" upstream="android-10.0.0_r3-xt0.1"/>
   <project groups="notdefault" name="android_meta_embedded_toolkit" path="prebuilts/imagination/metag/2.8" remote="epam" revision="06cfd1b79fc75514f45038efe9e1020885bacc5e" upstream="master"/>
   <project groups="notdefault" name="android_prebuilds_gcc_linuxx86_aarch64" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" remote="epam" revision="f2d82b5f945e157721cdfb8c934d4b03379173a1" upstream="linaro-7.3.1"/>
