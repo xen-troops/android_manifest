@@ -16,7 +16,7 @@
            fetch="https://github.com/OP-TEE/" />
 
   <!-- Xenvm projects -->
-  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="rec-inv" />
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="rec-inv" revision="android-11-master" />
   <project path="vendor/xen/audio" name="android_vendor_xen_audio" remote="github" />
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
   <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" />
@@ -36,10 +36,10 @@
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11-5375571-7.1.0-android-11-xt" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
-  <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr" groups="notdefault" remote="rec-inv" />
-  <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" groups="notdefault" remote="rec-inv" />
-  <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" groups="notdefault" remote="rec-inv" />
-  <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" groups="notdefault" remote="rec-inv" />
+  <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" groups="notdefault" remote="rec-inv" revision="android-11-master" />
 
   <!-- Security -->
   <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="900f48a6d24ba523268bc6ac1678d5e9f7b7e3c4" />
