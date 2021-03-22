@@ -40,6 +40,10 @@
   <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/utils/mmngr" name="vendor_renesas_utils_mmngr" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/utils/vspmif" name="vendor_renesas_utils_vspmif" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <!-- <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" groups="notdefault" remote="rec-inv" revision="android-11-master" /> -->
 
   <!-- Security -->
   <project path="vendor/linaro/kmgk" name="kmgk" remote="linaro-swg" revision="900f48a6d24ba523268bc6ac1678d5e9f7b7e3c4" />
