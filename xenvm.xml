@@ -36,6 +36,8 @@
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
+  <project path="hardware/realtek/rtl8812au_km" name="hardware_realtek_rtl8812au_km" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="hardware/realtek/wlan" name="hardware_realtek_wlan" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" groups="notdefault" remote="rec-inv" revision="android-11-master" />
