@@ -8,7 +8,9 @@ Please follow general rules/dependencies from : https://source.android.com/setup
 
 Also install
 
-`sudo apt install bc`
+`sudo apt install bc python3-pyelftools zip`
+
+`sudo pip3 install pycryptodome`
 
 For downloading opensource projects use:
 
@@ -26,8 +28,8 @@ And after init for both options (increase or decrease -jXXX depending on your ba
 **Establishing a Build Environment:**
 
 ```
-export TARGET_BOARD_PLATFORM=r8a7795
-export OUT_DIR=/media/Pie_OUT
+export TARGET_BOARD_PLATFORM=r8a7796
+export OUT_DIR=/media/OUT
 export PRODUCT_OUT=${OUT_DIR}/target/product/xenvm
 export HOST_PYTHON=$(dirname $PYTHON)
 ```
