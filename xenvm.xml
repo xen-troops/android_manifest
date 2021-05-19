@@ -1,6 +1,6 @@
 <manifest>
 
-  <remote  name="github" fetch="ssh://git@github.com/xen-troops/"
+  <remote  name="github" fetch="https://github.com/xen-troops/"
            revision="android-11-master" />
 
   <remote  name="epam"
