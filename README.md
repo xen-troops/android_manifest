@@ -27,8 +27,6 @@ And after init for both options (increase or decrease -jXXX depending on your ba
 
 ```
 export TARGET_BOARD_PLATFORM=r8a7795
-export OUT_DIR=/media/Pie_OUT
-export PRODUCT_OUT=${OUT_DIR}/target/product/xenvm
 export HOST_PYTHON=$(dirname $PYTHON)
 ```
 
