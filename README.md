@@ -49,6 +49,16 @@ In case DDK UM prebuilt:
 `export DDK_UM_PREBUILDS=/media/prebuilts/pvr-um`
 
 
+*Select external VIS server or emulated vehicle HAL:*
+
+Regarding vehicle information, android can work in two modes:
+* connection to external VIS server
+* usage of internal emulated vehicle HAL
+
+Mode is selected as build option and is set by environment variable `XT_USE_VIS_SERVER`. If `XT_USE_VIS_SERVER` is defined (value doesn't matter), then android will connect to external VIS server at address `wwwivi`.
+If `XT_USE_VIS_SERVER` is not defined (you may use `export XT_USE_VIS_SERVER=` to be sure), then android will be built with emulated vehicle HAL, and will not try to connect to external VIS server.
+
+
 **Build Android:**
 
 ```
