@@ -25,8 +25,19 @@ And after init for both options (increase or decrease -jXXX depending on your ba
 
 **Establishing a Build Environment:**
 
+To have properly built graphic drivers you need to specify target SOC:
+
+either H3 (r8a7795)
 ```
 export TARGET_BOARD_PLATFORM=r8a7795
+```
+or M3 (r8a7796)
+```
+export TARGET_BOARD_PLATFORM=r8a7796
+```
+
+In order to properly build trusted applications you need to specify folder with python
+```
 export HOST_PYTHON=$(dirname $PYTHON)
 ```
 
