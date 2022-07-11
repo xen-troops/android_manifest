@@ -47,7 +47,7 @@
   <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/hal/audioeffect" name="vendor_renesas_hal_audioeffect" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/app-prebuilt" name="vendor_renesas_app-prebuilt" groups="notdefault" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/app-prebuilt" name="vendor_renesas_app-prebuilt" groups="notdefault" remote="rec-inv" revision="android-11-master-epam" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="master" />
 
   <!-- Security -->
