@@ -15,6 +15,10 @@
   <remote  name="op-tee"
            fetch="https://github.com/OP-TEE/" />
 
+  <remote name="gitbud_epam_com" fetch="ssh://git@gitbud.epam.com"/>
+
+  <remote name="github_com" fetch="ssh://git@github.com"/>
+
   <!-- Xenvm projects -->
   <project path="device/xen/xenvm" name="android_device_xenvm"  remote="rec-inv" revision="android-12-master" />
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
@@ -50,5 +54,17 @@
   <project path="vendor/linaro/kmgk" name="kmgk" remote="github" revision="android-12-master" />
   <project path="vendor/linaro/optee_client" name="optee_client" remote="github" revision="8a9d8bfc277441a25995d99a1c5b7c9ec4eca3be" />
   <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="d2d837daa7c5b9cb59c9461389ab37cf0f39f7b8" />
+
+
+  <include name="boost-1_72_0.xml" />
+  <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="demo-ces-2022">
+    <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
+  </project>
+  <project path="vendor/epam/ces_navi_app" name="epmp-aos/ces-navigation-apk" remote="gitbud_epam_com" revision="main"/>
+  <project path="vendor/epam/aosp-automotive-app-host" name="epmp-aos/aosp-automotive-app-host" remote="gitbud_epam_com" revision="main"/>
+
+  <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="dev/epam-support"/>
+  <project path="external/covesa/someip/vsomeip" name="COVESA/vsomeip" remote="github_com" revision="refs/tags/3.1.20.3"/>
+  <project path="external/nlohmann/json" name="nlohmann/json" remote="github_com" revision="refs/tags/v3.11.2"/>
 
 </manifest>
