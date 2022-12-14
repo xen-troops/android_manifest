@@ -60,8 +60,8 @@
   <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="demo-ces-2022">
     <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
   </project>
-  <project path="vendor/epam/ces_navi_app" name="epmp-aos/ces-navigation-apk" remote="gitbud_epam_com" revision="main"/>
-  <project path="vendor/epam/aosp-automotive-app-host" name="epmp-aos/aosp-automotive-app-host" remote="gitbud_epam_com" revision="main"/>
+  <project path="vendor/epam/ces-navigation" name="epmp-aos/ces-navigation" remote="gitbud_epam_com" revision="main"/>
+  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="main"/>
 
   <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="dev/epam-support"/>
   <project path="external/covesa/someip/vsomeip" name="COVESA/vsomeip" remote="github_com" revision="refs/tags/3.1.20.3"/>
