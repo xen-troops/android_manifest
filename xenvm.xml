@@ -55,7 +55,7 @@
 
 
   <include name="boost-1_72_0.xml" />
-  <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="demo-ces-2022">
+  <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="android-13-master">
     <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
   </project>
   <project path="vendor/epam/ces-navigation" name="epmp-aos/ces-navigation" remote="gitbud_epam_com" revision="main"/>
