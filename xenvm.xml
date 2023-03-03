@@ -18,6 +18,7 @@
   <remote name="gitbud_epam_com" fetch="ssh://git@gitbud.epam.com"/>
 
   <remote name="github_com" fetch="ssh://git@github.com"/>
+  <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
 
   <!-- Xenvm projects -->
   <project path="device/xen/xenvm" name="android_device_xenvm"  remote="rec-inv" revision="android-12-master" />
@@ -30,7 +31,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" remote="github" revision="linaro-7.3.1" />
 
   <!-- AOSP projects with changes -->
-  <project path="external/drm_hwcomposer" name="android_external_drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-10.0.0_r3-xt0.3" />
+  <project path="external/drm_hwcomposer" name="drm-hwcomposer/drm-hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="fd" revision="main" />
 
   <!-- Internal projects -->
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master-rvgc-prebuilds"/>
