@@ -44,7 +44,7 @@
   <project path="vendor/renesas/utils/vspmif" name="vendor_renesas_utils_vspmif" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="hardware/renesas/proprietary/omx" name="hardware_renesas_proprietary_omx" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" groups="notdefault" remote="rec-inv" revision="android-12-master" />
+  <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" groups="notdefault" remote="rec-inv" revision="android-13-master" />
   <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/hal/audioeffect" name="vendor_renesas_hal_audioeffect" groups="notdefault" remote="rec-inv" revision="android-12-master" />
 
