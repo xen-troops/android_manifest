@@ -20,7 +20,8 @@
   <remote name="github_com" fetch="ssh://git@github.com"/>
 
   <!-- Xenvm projects -->
-  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="rec-inv" revision="android-12-master" />
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="rec-inv" revision="android-12-master-evs" />
+  <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" />
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
   <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" revision="android-12-master-renesas-sim" />
   <project path="vendor/xen/libvisclient" name="libvisclient" remote="github" />
