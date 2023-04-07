@@ -2,6 +2,7 @@
 <manifest>
 
   <remove-project name="platform/external/drm_hwcomposer"/>
+  <remove-project name="platform/frameworks/base"/>
 
   <!--  <extend-project name="platform/external/e2fsprogs" revision="9fa6bed983d5ddd7226af647a0c4c0d922227be4"/>
   <extend-project name="platform/external/linux-kselftest" revision="db3a9fa235b35199b31b6e056c5e853e017554fc"/>
