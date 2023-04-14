@@ -37,17 +37,17 @@
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master-rvgc-prebuilds"/>
   <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
-  <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr" groups="notdefault" remote="rec-inv" revision="android-12-master" />
-  <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" groups="notdefault" remote="rec-inv" revision="android-12-master" />
-  <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" groups="notdefault" remote="rec-inv" revision="android-12-master" />
-  <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" groups="notdefault" remote="rec-inv" revision="android-12-master" />
-  <project path="vendor/renesas/utils/mmngr" name="vendor_renesas_utils_mmngr" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/renesas/utils/vspmif" name="vendor_renesas_utils_vspmif" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="hardware/renesas/proprietary/omx" name="hardware_renesas_proprietary_omx" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" groups="notdefault" remote="rec-inv" revision="android-12-master" />
-  <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" groups="notdefault" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/renesas/hal/audioeffect" name="vendor_renesas_hal_audioeffect" groups="notdefault" remote="rec-inv" revision="android-12-master" />
+  <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr"  remote="rec-inv" revision="android-12-master" />
+  <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif"  remote="rec-inv" revision="android-12-master" />
+  <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" remote="rec-inv" revision="android-12-master" />
+  <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" remote="rec-inv" revision="android-12-master" />
+  <project path="vendor/renesas/utils/mmngr" name="vendor_renesas_utils_mmngr" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/utils/vspmif" name="vendor_renesas_utils_vspmif" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" remote="rec-inv" revision="android-11-master" />
+  <project path="hardware/renesas/proprietary/omx" name="hardware_renesas_proprietary_omx" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" remote="rec-inv" revision="android-12-master" />
+  <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/hal/audioeffect" name="vendor_renesas_hal_audioeffect" remote="rec-inv" revision="android-12-master" />
   <project path="vendor/app-prebuilt" name="vendor_renesas_app-prebuilt" groups="notdefault" remote="rec-inv" revision="android-12-master-epam" />
   <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="android-12-master" />
 
