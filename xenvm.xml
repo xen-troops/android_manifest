@@ -22,7 +22,6 @@
   <!-- Xenvm projects -->
   <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="android-12-prod-cockpit-rcar-master" />
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
-  <project path="vendor/xen/vehicle" name="android_vendor_xen_vehicle" remote="github" revision="android-12-master-renesas-sim" />
   <project path="vendor/xen/libvisclient" name="libvisclient" remote="github" />
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
@@ -47,8 +46,6 @@
   <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" groups="notdefault" remote="rec-inv" revision="android-12-master" />
   <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" groups="notdefault" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/hal/audioeffect" name="vendor_renesas_hal_audioeffect" groups="notdefault" remote="rec-inv" revision="android-12-master" />
-  <project path="vendor/app-prebuilt" name="vendor_renesas_app-prebuilt" groups="notdefault" remote="rec-inv" revision="android-12-master-epam" />
-  <project path="vendor/Google" name="google_apps_proprietary" groups="notdefault" remote="epam" revision="android-12-master" />
 
   <!-- Security -->
   <project path="vendor/linaro/kmgk" name="kmgk" remote="github" revision="android-12-master" />
