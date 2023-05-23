@@ -62,6 +62,7 @@
   <project path="vendor/epam/EpamCluster" name="epmp-aos/ces-cluster" remote="gitbud_epam_com" revision="android-12"/>
   <project path="vendor/epam/EpamMusic" name="epmp-aos/epam-music-dist" remote="gitbud_epam_com" revision="main"/>
   <project path="vendor/epam/EpamHNAV" name="epmp-aos/epam-hnav-dist" remote="gitbud_epam_com" revision="main"/>
+  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="main"/>
 
   <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="dev/epam-support"/>
   <project path="external/covesa/someip/vsomeip" name="COVESA/vsomeip" remote="github_com" revision="refs/tags/3.1.20.3"/>
