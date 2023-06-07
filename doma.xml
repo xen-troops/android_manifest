@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <include name="aosp.xml" />
-  <include name="aosp-override.xml" />
-  <include name="xenvm.xml" />
-
-</manifest>
