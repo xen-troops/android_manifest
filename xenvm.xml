@@ -60,7 +60,7 @@
     <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
   </project>
   <project path="vendor/epam/ces-navigation" name="epmp-aos/ces-navigation" remote="gitbud_epam_com" revision="main"/>
-  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="main"/>
+  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android_13"/>
 
 
   <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="dev/epam-support"/>
