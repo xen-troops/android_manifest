@@ -60,10 +60,10 @@
     <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
   </project>
   <project path="vendor/epam/ces-navigation" name="epmp-aos/ces-navigation" remote="gitbud_epam_com" revision="main"/>
-  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android_13"/>
+  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-13"/>
   <project path="vendor/epam/EpamMusic" name="epmp-aos/epam-music-dist" remote="gitbud_epam_com" revision="main"/>
   <project path="vendor/epam/EpamHNAV" name="epmp-aos/epam-hnav-dist" remote="gitbud_epam_com" revision="main"/>
-  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android_13"/>
+  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android-13"/>
 
   <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="dev/epam-support"/>
   <project path="external/covesa/someip/vsomeip" name="COVESA/vsomeip" remote="github_com" revision="refs/tags/3.1.20.3"/>
