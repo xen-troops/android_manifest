@@ -31,7 +31,7 @@
 
   <!-- AOSP projects with changes -->
   <project path="external/drm_hwcomposer" name="drm-hwcomposer/drm-hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="fd" revision="main" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-13.0.0_r31-master-xt" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="drm_hwcomposer,pdk-fs" remote="github" revision="android-13.0.0_r61-master-xt" />
 
   <!-- Internal projects -->
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master-rvgc-prebuilds"/>
