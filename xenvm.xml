@@ -25,6 +25,7 @@
   <project path="vendor/xen/libvisclient" name="libvisclient" remote="github" />
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
+  <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" revision="android-12-carla-master" />
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="glmark-prebuilt" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" remote="github" revision="linaro-7.3.1" />
 
