@@ -21,11 +21,12 @@
   <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
 
   <!-- Xenvm projects -->
-  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="android-13-prod-cockpit-rcar-master" />
+  <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="android-14-prod-cockpit-rcar-master" />
   <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" />
   <project path="vendor/xen/libvisclient" name="libvisclient" remote="github" />
   <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" />
   <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" />
+  <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" revision="android-14-carla-master" />
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="glmark-prebuilt" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" remote="github" revision="linaro-7.3.1" />
 
@@ -33,8 +34,8 @@
   <project path="external/drm_hwcomposer" name="drm-hwcomposer/drm-hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="fd" revision="main" />
 
   <!-- Internal projects -->
+
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master-rvgc-prebuilds"/>
-  <project path="vendor/imagination/rogue_km" name="pvr_km_vgpu_img" groups="notdefault" remote="epam" revision="1.11/5375571-7.1.0-11-master" />
   <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="master" />
   <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr" remote="rec-inv" revision="android-12-master" />
   <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" remote="rec-inv" revision="android-12-master" />
@@ -42,7 +43,7 @@
   <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" remote="rec-inv" revision="android-12-master" />
   <project path="vendor/renesas/utils/mmngr" name="vendor_renesas_utils_mmngr" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/utils/vspmif" name="vendor_renesas_utils_vspmif" remote="rec-inv" revision="android-11-master" />
-  <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" remote="rec-inv" revision="android-11-master" />
+  <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" remote="rec-inv" revision="android-14-master" />
   <project path="hardware/renesas/proprietary/omx" name="hardware_renesas_proprietary_omx" remote="rec-inv" revision="android-11-master" />
   <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" remote="rec-inv" revision="android-13-master" />
   <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" remote="rec-inv" revision="android-11-master" />
@@ -55,15 +56,16 @@
 
 
   <include name="boost-1_72_0.xml" />
-  <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="android-13-master">
+  <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="android-14-master">
     <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
   </project>
   <project path="vendor/epam/ces-navigation" name="epmp-aos/ces-navigation" remote="gitbud_epam_com" revision="main"/>
-  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-13"/>
-  <project path="vendor/epam/EpamCluster" name="epmp-aos/ces-cluster" remote="gitbud_epam_com" revision="android-13"/>
+  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
+  <project path="vendor/epam/EpamCluster" name="epmp-aos/ces-cluster" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
   <project path="vendor/epam/EpamMusic" name="epmp-aos/epam-music-dist" remote="gitbud_epam_com" revision="main"/>
-  <project path="vendor/epam/epam-hnav-dist" name="epmp-aos/epam-hnav-dist" remote="gitbud_epam_com" revision="android-13"/>
-  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android-13-r61"/>
+  <project path="vendor/epam/epam-hnav-dist" name="epmp-aos/epam-hnav-dist" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
+  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
+  <project path="vendor/epam/epam-evs" name="epmp-aos/epam-evs" remote="gitbud_epam_com" revision="main"/>
 
   <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="dev/epam-support"/>
   <project path="external/covesa/someip/vsomeip" name="COVESA/vsomeip" remote="github_com" revision="refs/tags/3.1.20.3"/>
