@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <include name="android-12.1.0_r8.xml" />
-  <include name="android-12.1.0_r8-override.xml" />
+  <include name="android-14.0.0_r21.xml" />
   <include name="aosp-device-xenvm-trout.xml" />
 
 </manifest>
