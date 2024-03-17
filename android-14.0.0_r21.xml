@@ -37,7 +37,7 @@
   <project name="device/google/coral" revision="dc56e7bffa76c9229afc04976f46cb1aae46ff12" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,coral,generic_fs"/>
   <project name="device/google/coral-kernel" revision="e9b5883fb2ac536db8f7c218a26270a6be7d179f" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,coral,generic_fs" clone-depth="1"/>
   <project name="device/google/coral-sepolicy" revision="7156d246aab249eddf43ca407bd532eda09ce54f" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,coral,generic_fs"/>
-  <project name="device/google/cuttlefish" revision="54dd8434b2a7ee3b78c1c3607c06236a77372017" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,pdk"/>
+  <project name="device/google/cuttlefish" revision="51cce311823e6a1943a8e7c4dac7ad139a3f142d" groups="device,pdk"/>
   <project name="device/google/cuttlefish_prebuilts" revision="120b013536c5d688280555686662c4eb6621cb32" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,pdk" clone-depth="1"/>
   <project name="device/google/felix" revision="32c5cc5e7273d5a18b7fe8b2e722c23fef2c365c" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,felix"/>
   <project name="device/google/felix-kernel" revision="e5110c64817137888d86ab189411e798e0aa830f" upstream="refs/tags/android-14.0.0_r21" dest-branch="refs/tags/android-14.0.0_r21" groups="device,felix" clone-depth="1"/>
