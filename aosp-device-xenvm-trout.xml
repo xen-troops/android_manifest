@@ -1,4 +1,7 @@
 <manifest>
     <remote name="github" fetch="https://github.com/"/>
+    <remote name="fd" fetch="https://gitlab.freedesktop.org/"/>
     <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="a55604b13ba4f97a3157b691b5fec93042f3f407"/>
+    <remove-project name="platform/external/mesa3d"/>
+    <project path="external/mesa3d" name="mesa/mesa" remote="fd" revision="e3f91fb13c70bff9bc361b78439293d6288084a1"/>
 </manifest>
