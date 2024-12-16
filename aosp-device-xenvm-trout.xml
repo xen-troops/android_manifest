@@ -1,4 +1,4 @@
 <manifest>
     <remote name="github" fetch="https://github.com/"/>
-    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="a55604b13ba4f97a3157b691b5fec93042f3f407"/>
+    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="572a6df03f08b863604c3a3bb99752f99505deae"/>
 </manifest>
