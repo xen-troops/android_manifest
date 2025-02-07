@@ -1,68 +1,22 @@
 <manifest>
 
+  <!-- Remotes -->
   <remote  name="github" fetch="https://github.com/xen-troops/"
            revision="android-12-master" />
-
   <remote  name="epam"
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
-
-  <remote  name="rec-inv"
-           fetch="ssh://git@gitpct.epam.com/rec-inv/" />
-
-  <remote name="gitbud_epam_com" fetch="ssh://git@gitbud.epam.com"/>
-
-  <remote name="github_com" fetch="ssh://git@github.com"/>
   <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
 
   <!-- Xenvm projects -->
   <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="8a5886abe8d2a3625e9b919f873a9f86a11ce0cc" />
-  <project path="vendor/xen/gnss" name="android_vendor_xen_gnss" remote="github" revision="9523a8ef76b29659a3ec2500c3ba0b53fd640696" />
-  <project path="vendor/xen/libvisclient" name="libvisclient" remote="github" revision="4dec4bb5b729f99daaee2af41f4b412fcd5b682b" />
-  <project path="vendor/unetworking/uwebsockets" name="uWebSockets" remote="github" revision="90f59d97a5e935a15e0d15b0caeb19664bb21f21" />
-  <project path="vendor/xen/sensors" name="android_vendor_xen_sensors" remote="github" revision="8bd1ede90575235271abfd670d96ecfe9903e894" />
-  <project path="vendor/xen/evs" name="android_vendor_xen_evs" remote="github" revision="2c51fe15d27b27bce3ef857063b6498f46715bc2" />
+
+  <!-- Tools for testing -->
   <project path="vendor/glmark2" name="glmark2" remote="github" revision="cf52866ec8c487f562fe8c9fd0a8b7b3f3d4c5bb" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu" name="android_prebuilds_gcc_linuxx86_aarch64" remote="github" revision="f2d82b5f945e157721cdfb8c934d4b03379173a1" />
 
   <!-- AOSP projects with changes -->
   <project path="external/drm_hwcomposer" name="drm-hwcomposer/drm-hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="fd" revision="d44ffc78ae12d0309908ba852ae35466297d9f1d" />
 
-  <!-- Internal projects -->
-
+  <!-- Imagination graphics -->
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="e6bf05260d85e2884add102710bb02cb495af384"/>
-  <project path="prebuilts/imagination/metag/2.8" name="android_meta_embedded_toolkit" groups="notdefault" remote="epam" revision="06cfd1b79fc75514f45038efe9e1020885bacc5e" />
-  <project path="hardware/renesas/modules/mmngr" name="hardware_renesas_mmngr" remote="rec-inv" revision="2fe8f619355472606e6932759b568f3d1aabae5a" />
-  <project path="hardware/renesas/modules/vspmif" name="hardware_renesas_vspmif" remote="rec-inv" revision="674b5c9b7ce2f9a75acc2993ec60dfd8e129c625" />
-  <project path="hardware/renesas/modules/vspm" name="hardware_renesas_vspm" remote="rec-inv" revision="79f84c9cf2b879c5944834a32f645ba77e657bb5" />
-  <project path="hardware/renesas/modules/uvcs" name="hardware_renesas_uvcs" remote="rec-inv" revision="e366c4cbd2284a7f1ebad6cc2902a77cb8122caa" />
-  <project path="vendor/renesas/utils/mmngr" name="vendor_renesas_utils_mmngr" remote="rec-inv" revision="2f808f29e038d4c347d59e38d9a9081322832a47" />
-  <project path="vendor/renesas/utils/vspmif" name="vendor_renesas_utils_vspmif" remote="rec-inv" revision="4b7b9ad6254094022464db616133b5f2ac1d3cf4" />
-  <project path="vendor/renesas/hal/c2" name="vendor_renesas_hal_c2" remote="rec-inv" revision="30467bd7b55cc06cfbbe8d16e5105c643e84aa9a" />
-  <project path="hardware/renesas/proprietary/omx" name="hardware_renesas_proprietary_omx" remote="rec-inv" revision="f1ae928666e08b639a09fecb2be809c588201f61" />
-  <project path="vendor/renesas/hal/audio" name="vendor_renesas_hal_audio" remote="rec-inv" revision="24ea2a7628de17ba30fb8c9aeca0795188aefc61" />
-  <project path="vendor/renesas/hal/audiocontrol" name="vendor_renesas_hal_audiocontrol" remote="rec-inv" revision="9ea712c0b064112b0e34d526dfa787d408ea16d3" />
-  <project path="vendor/renesas/hal/audioeffect" name="vendor_renesas_hal_audioeffect" remote="rec-inv" revision="b6f764b4aaed3f3ada9f09b0a9fb9adb898c7e68" />
-
-  <!-- Security -->
-  <project path="vendor/linaro/kmgk" name="kmgk" remote="github" revision="dacbe43b52cc9f6241108365a75d0631d1ea9cef" />
-  <project path="vendor/linaro/optee_client" name="optee_client" remote="github" revision="8a9d8bfc277441a25995d99a1c5b7c9ec4eca3be" />
-  <project path="vendor/xen/optee_os" name="optee_os" remote="github" revision="d2d837daa7c5b9cb59c9461389ab37cf0f39f7b8" />
-
-
-  <include name="boost-1_72_0.xml" />
-  <project path="vendor/epam/aosp-vhal" name="epmp-aos/aosp-vhal" remote="gitbud_epam_com" revision="02a2ee7f0739a864ac5aa876b737aad8f632c9f8">
-    <linkfile dest="external/boost/Android.bp" src="vehicle/boost-1_72_0.bp" />
-  </project>
-  <project path="vendor/epam/ces-navigation" name="epmp-aos/ces-navigation" remote="gitbud_epam_com" revision="e8b3a91570cba5e4947974879085276f182b72d0"/>
-  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="ac51f424da9fae85d71d541b1dcac5565f33273b"/>
-  <project path="vendor/epam/EpamCluster" name="epmp-aos/ces-cluster" remote="gitbud_epam_com" revision="a38ac627806099c1eac99208ca5f368d61408657"/>
-  <project path="vendor/epam/EpamMusic" name="epmp-aos/epam-music-dist" remote="gitbud_epam_com" revision="f5f8042373580e4bad6c8edf8f94a68cd5fbb538"/>
-  <project path="vendor/epam/epam-hnav-dist" name="epmp-aos/epam-hnav-dist" remote="gitbud_epam_com" revision="09eeaa3821e35e4d8cafd9baa6b8b21a581fb0ef"/>
-  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="3f66af1dadb48bf41654b27f757225c2660bb32c"/>
-  <project path="vendor/epam/epam-evs" name="epmp-aos/epam-evs" remote="gitbud_epam_com" revision="c5b5bef84fbc46ae6d10ed2fba667a3400e0f3b6"/>
-
-  <project path="external/tda/carpc" name="dterletskiy/carpc" remote="github_com" revision="7b8ed59b40aa465d4b5ae6aa36861aa1ae3f79e9"/>
-  <project path="external/covesa/someip/vsomeip" name="COVESA/vsomeip" remote="github_com" revision="refs/tags/3.1.20.3"/>
-  <project path="external/nlohmann/json" name="nlohmann/json" remote="github_com" revision="refs/tags/v3.11.2"/>
 
 </manifest>
