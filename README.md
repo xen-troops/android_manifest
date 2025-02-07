@@ -1,6 +1,5 @@
 This is manifest project, for building Android OS as Xen guest.
-Based on android-mainline-11.0.0_r1 AOSP manifest.
-
+Based on android-14.0.0_r21 AOSP manifest.
 
 **Downloading the Source:**
 
@@ -14,11 +13,11 @@ Also install
 
 For downloading opensource projects use:
 
-`repo init -u git@gitpct.epam.com:rec-inv/android_manifest.git -m doma.xml -b android-11-master`
+`repo init -u git@github.com:svlad-90/android_manifest.git -m doma.xml -b android-14-prod-cockpit-rcar-v4h`
 
 For downloading opensource and internal projects (you need appropriate access rights) use:
 
-`repo init -u git@gitpct.epam.com:rec-inv/android_manifest.git -m doma.xml -b android-11-master -g all`
+`repo init -u git@github.com:svlad-90/android_manifest.git -m doma.xml -b android-14-prod-cockpit-rcar-v4h -g all`
 
 And after init for both options (increase or decrease -jXXX depending on your bandwidth):
 
@@ -33,7 +32,6 @@ export OUT_DIR=/media/OUT
 export PRODUCT_OUT=${OUT_DIR}/target/product/xenvm
 export HOST_PYTHON=$(dirname $PYTHON)
 ```
-
 
 *Building with prebuilts:*
 
@@ -60,7 +58,6 @@ In case DDK UM prebuilt:
 lunch xenvm-userdebug
 make -j$(grep -c ^processor /proc/cpuinfo)
 ```
-
 
 **Using own internal projects for full source build**
 
