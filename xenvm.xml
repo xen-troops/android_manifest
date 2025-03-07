@@ -7,6 +7,7 @@
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
   <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
   <remote name="gitbud_epam_com" fetch="ssh://git@gitbud.epam.com"/>
+  <remote name="rel" fetch="https://partnergitlab.renesas.solutions/v4h-fusion-poc/"/>
 
   <!-- Xenvm projects -->
   <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="8a5886abe8d2a3625e9b919f873a9f86a11ce0cc" />
@@ -18,7 +19,7 @@
   <project path="external/drm_hwcomposer" name="drm-hwcomposer/drm-hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="fd" revision="d44ffc78ae12d0309908ba852ae35466297d9f1d" />
 
   <!-- Imagination graphics -->
-  <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="e6bf05260d85e2884add102710bb02cb495af384"/>
+  <project path="vendor/imagination/rogue_um" name="pvr" groups="notdefault" remote="rel" revision="23.3_RTM_6512818-android-14-um-bin"/>
 
   <!-- EPAM Applications -->
   <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
