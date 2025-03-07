@@ -6,6 +6,7 @@
   <remote  name="epam"
            fetch="ssh://git@gitpct.epam.com/epmd-aepr/" />
   <remote name="fd" fetch="https://gitlab.freedesktop.org/" />
+  <remote name="gitbud_epam_com" fetch="ssh://git@gitbud.epam.com"/>
 
   <!-- Xenvm projects -->
   <project path="device/xen/xenvm" name="android_device_xenvm"  remote="github" revision="8a5886abe8d2a3625e9b919f873a9f86a11ce0cc" />
@@ -18,5 +19,9 @@
 
   <!-- Imagination graphics -->
   <project path="vendor/imagination/rogue_um" name="pvr_um_vgpu_img" groups="notdefault" remote="epam" revision="e6bf05260d85e2884add102710bb02cb495af384"/>
+
+  <!-- EPAM Applications -->
+  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
+  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
 
 </manifest>
