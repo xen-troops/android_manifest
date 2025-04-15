@@ -20,8 +20,4 @@
   <!-- Imagination graphics -->
   <project path="vendor/imagination/rogue_um" name="pvr" groups="notdefault" remote="rel" revision="23.3_RTM_6512818-android-14-um-bin"/>
 
-  <!-- EPAM Applications -->
-  <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
-  <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
-
 </manifest>
