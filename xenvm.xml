@@ -23,5 +23,6 @@
   <!-- EPAM Applications -->
   <project path="vendor/epam/aosp-hmi" name="epmp-aos/aosp-hmi" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
   <project path="vendor/epam/EpamSystemUI" name="epmp-aos/epam-systemui" remote="gitbud_epam_com" revision="android-14.0.0_r21"/>
+  <project path="vendor/epam/EpamMusic" name="epmp-aos/epam-music-dist" remote="gitbud_epam_com" revision="main"/>
 
 </manifest>
