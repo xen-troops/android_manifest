@@ -1,0 +1,4 @@
+<manifest>
+    <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
+    <project path="vendor/prebuilts/" name="x5h-fusion-poc/gen5-prebuilts" remote="rs" revision="android15-main"/>
+</manifest>
