@@ -1,4 +1,5 @@
 <manifest>
     <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
-    <project path="vendor/prebuilts/" name="x5h-fusion-poc/gen5-prebuilts" remote="rs" revision="android15-main"/>
+    <project path="vendor/prebuilts/renesas" name="x5h-fusion-poc/gen5-prebuilts" remote="rs" revision="ces2026"/>
+    <project path="vendor/prebuilts/imagination" name="x5h-fusion-poc/ddk-um-bin" remote="rs" revision="android15-main"/>
 </manifest>
