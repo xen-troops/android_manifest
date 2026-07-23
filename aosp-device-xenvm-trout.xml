@@ -1,7 +1,7 @@
 <manifest>
     <remote name="github" fetch="https://github.com/"/>
     <remote name="fd" fetch="https://gitlab.freedesktop.org/"/>
-    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="652c3f0b037058d7d6ac705c45e33b128d2d9dda"/> <!-- android-17-xenvm-trout-ih-main -->
+    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="d098ad98e28e704927b2c20eb6957b20d24d82e4"/> <!-- android-17-xenvm-trout-ih-main -->
     <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="2914ee59c836435f7e98720148fd2929bf0b49ba"/> <!-- main -->
     <project path="vendor/epam/evs" name="xen-troops/android_vendor_xen_evs" remote="github" revision="0fc77b6fc3ffd86cbe94daf7a321a91163f7da9d"/> <!-- android-17-ih-main -->
 </manifest>
