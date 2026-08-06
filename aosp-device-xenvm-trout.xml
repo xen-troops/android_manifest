@@ -5,6 +5,6 @@
     <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="2914ee59c836435f7e98720148fd2929bf0b49ba"/> <!-- main -->
     <project path="vendor/epam/evs" name="xen-troops/android_vendor_xen_evs" remote="github" revision="0fc77b6fc3ffd86cbe94daf7a321a91163f7da9d"/> <!-- android-17-ih-main -->
     <project path="vendor/optee/optee_client" name="OP-TEE/optee_client" remote="github" revision="d221676a58b305bddbf97db00395205b3038de8e"/> <!-- 4.4.0 -->
-    <project path="vendor/optee/optee_os" name="xen-troops/optee_os" remote="github" revision="9cf0feb909f7c494af1a38bd4609912e8bfa48fc"/> <!-- rcar-gen5_4.4.0-android-xt -->
+    <project path="vendor/optee/optee_os" name="xen-troops/optee_os" remote="github" revision="591fa9e60546bc20a59edf3c65b9ae037be45153"/> <!-- rcar-gen5_4.4.0-android-xt -->
     <project path="vendor/optee/optee_test" name="xen-troops/optee_test" remote="github" revision="953d32200810468440bb95b654957498ce4810c8"/> <!-- 4.4.0-android-xt -->
 </manifest>
