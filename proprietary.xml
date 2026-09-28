@@ -1,5 +1,5 @@
 <manifest>
     <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
     <project path="vendor/prebuilts/renesas" name="x5h-fusion-poc/gen5-prebuilts" remote="rs" revision="c7cb672c4e37d4096a1d6f5106e5f6bf88723522"/> <!-- android-fw-sdk-4.36 -->
-    <project path="vendor/prebuilts/imagination" name="x5h-fusion-poc/ddk-um-bin" remote="rs" revision="da45c93f6984462bbe8bd72ac2468548e0f979a6"/> <!-- 26.1_7036548_RTM2-android-17-main -->
+    <project path="vendor/prebuilts/imagination" name="x5h-fusion-poc/ddk-um-bin" remote="rs" revision="c70819e79da08957126659db0321a08b018ab275"/> <!-- 26.1_7036548_RTM2-android-17-main -->
 </manifest>
