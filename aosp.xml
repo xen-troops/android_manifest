@@ -604,7 +604,6 @@
   <project name="platform/external/usb-ids" path="external/usb-ids" revision="c69b20f6f7081fa88fd7cabf15fcfbd9d10b35fd" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
   <project name="platform/external/uwb" path="external/uwb" revision="3f12770ae3933ff040d024e3d3aa9918fcc115bb" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
   <project name="platform/external/v4l-utils" path="external/v4l-utils" revision="c39be2de7d3867cacd891e56d625b205bfd7758b" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
-  <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="1226adff48e591f0b6cac8d3a271a7324d8fc0ec" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
   <project name="platform/external/vboot_reference" path="external/vboot_reference" revision="22b6bf0bec7e2f515695cbe5cc0863a7e324fd2b" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
   <project name="platform/external/virtio-media" path="external/virtio-media" revision="b6071a2fbc949f954cef5f679615cb9ea972fd79" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>
   <project name="platform/external/vixl" path="external/vixl" revision="ce11d32c9cc395fd0fd961e30b1ab56e06fd30dc" upstream="refs/tags/android-17.0.0_r1" dest-branch="refs/tags/android-17.0.0_r1" groups="pdk"/>

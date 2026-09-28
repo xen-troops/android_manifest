@@ -1,6 +1,8 @@
 <manifest>
     <remote name="github" fetch="https://github.com/"/>
     <remote name="fd" fetch="https://gitlab.freedesktop.org/"/>
+    <remote name="epam" fetch="https://gitbud.epam.com/rec-aaos/android/"/>
+    <project path="external/v4l2_codec2" name="v4l2_codec2" remote="epam" revision="7992ab7596d89df8668f11f1a34f550c6927a1b2"/>
     <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="419a108721ce670774f74cfb25d6db6f7d85964a"/> <!-- android-17-xenvm-trout-ih-main -->
     <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="2914ee59c836435f7e98720148fd2929bf0b49ba"/> <!-- main -->
     <project path="vendor/epam/evs" name="xen-troops/android_vendor_xen_evs" remote="github" revision="0fc77b6fc3ffd86cbe94daf7a321a91163f7da9d"/> <!-- android-17-ih-main -->
