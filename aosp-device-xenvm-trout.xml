@@ -9,4 +9,6 @@
     <project path="vendor/optee/optee_os" name="x5h-fusion-poc/optee_os" remote="renesas" revision="555f2c0c757bf6f2b849501acfc013c1bd63e496"/> <!-- renesas/rcar-gen5_4.10.0-xt -->
     <project path="vendor/optee/optee_test" name="xen-troops/optee_test" remote="github" revision="5bd5736287859e19bd30eab6f7396e8dc9178c66"/> <!-- renesas/rcar-gen5_4.10.0-xt -->
     <project path="vendor/renesas/camera2" name="x5h-fusion-poc/camera2hal" remote="renesas" revision="3afac11656e3abb54cf482b29d9293ea45afc5d7"/> <!-- android-17-main -->
+    <remove-project name="platform/external/v4l2_codec2"/>
+    <project path="external/v4l2_codec2" name="external_v4l2_codec2" remote="renesas" revision="4c22f9dcc55e54ed8b2ac88d092b508df8ede3dd"/>
 </manifest>
