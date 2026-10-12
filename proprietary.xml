@@ -1,5 +1,5 @@
 <manifest>
     <remote name="rs" fetch="https://partnergitlab.renesas.solutions/"/>
-    <project path="vendor/prebuilts/renesas" name="x5h-fusion-poc/gen5-prebuilts" remote="rs" revision="c56983be06148cf9970a402cf9a2840fbfaeb6c7"/> <!-- ces2026 -->
-    <project path="vendor/prebuilts/imagination" name="x5h-fusion-poc/ddk-um-bin" remote="rs" revision="6b287ab9c9bf6d6b22fd983764ed3a11567f2af2"/> <!-- 25.1_6794074-android-16-main -->
+    <project path="vendor/hwc" name="x5h-fusion-poc/hwc" remote="rs" revision="8b0e0215bc8e3ab6e514f6ff7a4aef8d3e82f678"/> <!-- android17-release-xt -->
+    <project path="vendor/prebuilts/imagination" name="x5h-fusion-poc/ddk-um-bin" remote="rs" revision="707238b29b33b11c26a860c8fa7c316bf529392f"/> <!-- 26.1_7036548_RTM2-android-17-sdv-main -->
 </manifest>
