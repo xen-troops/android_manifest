@@ -2,9 +2,9 @@
     <remote name="github" fetch="https://github.com/"/>
     <remote name="a17patched" fetch="https://partnergitlab.renesas.solutions/x5h-fusion-poc/"/>
     <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="48656eb1a8fc8c4a28fd37a1618183a0de5d4d3d"/> <!-- android-17-sdv-main -->
-    <project name="cuttlefish" revision="2df4466b396fc46c178188756c67ef0f8b06031f" remote="a17patched"/> <!-- android-17-sdv-main -->
-    <project name="sdv" revision="9dd66640df4279573f3e00a2472f5b6d571706e9" remote="a17patched"/> <!-- android-17-sdv-main -->
-    <project name="sdv_display_safety" revision="67531744bd4b8cf551f031ad6db0cae620f867a8" remote="a17patched"/> <!-- android-17-sdv-main -->
+    <project name="cuttlefish" path="device/google/cuttlefish" revision="2df4466b396fc46c178188756c67ef0f8b06031f" remote="a17patched"/> <!-- android-17-sdv-main -->
+    <project name="sdv" path="device/google/sdv" revision="9dd66640df4279573f3e00a2472f5b6d571706e9" remote="a17patched"/> <!-- android-17-sdv-main -->
+    <project name="sdv_display_safety" path="device/google/sdv_display_safety" revision="67531744bd4b8cf551f031ad6db0cae620f867a8" remote="a17patched"/> <!-- android-17-sdv-main -->
     <project name="DriverUIPrebuilt" path="packages/apps/Car/DriverUIPrebuilt" revision="81661556075eb819fd30804b3cb351e9e8a5226c" remote="a17patched"/> <!-- android17-release-xt -->
     <project name="FakeMapPrebuilt" path="packages/apps/Car/FakeMapPrebuilt" revision="89981f92a9291f9fe41d110736e1948f0ed7b75c" remote="a17patched"/> <!-- main-xt -->
     <project name="Car" path="packages/services/Car" revision="d3f2742f6c7b92fcd31c274814c2a81e7355295c" remote="a17patched"/> <!-- android17-release-xt -->
