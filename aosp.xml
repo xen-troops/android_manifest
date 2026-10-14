@@ -19,7 +19,6 @@
   <project name="device/google/atv" revision="cf5781579546247f8ec2c0f1b1770083d29f8f1b" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="broadcom_pdk,device,generic_fs,pdk"/>
   <project name="device/google/common/etm" revision="e1a542245d4e5332cee41cb256820c728cd5acca" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="device" clone-depth="1"/>
   <project name="device/google/contexthub" revision="c350d2a693da367e918b7a6648a343fad6787959" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="device,pdk"/>
-  <project name="device/google/cuttlefish" revision="4d368849922b04124e66b1aad48f93b3209f3c8d" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="device,pdk"/>
   <project name="device/google/cuttlefish_prebuilts" revision="9d3fb5a687158a5d09407a3bbeea159b0849ef78" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="device,pdk" clone-depth="1"/>
   <project name="device/google/cuttlefish_vmm" revision="154651c7d82951b51f0f2b60436f451562253af6" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="device,pdk" clone-depth="1"/>
   <project name="device/google/trout" revision="f7c6417a453a92a607c94bd0ea0a532a932aa105" upstream="android16-qpr2-release" dest-branch="android16-qpr2-release" groups="device,pdk" clone-depth="1"/>
