@@ -2,13 +2,13 @@
     <remote name="github" fetch="https://github.com/"/>
     <remote name="fd" fetch="https://gitlab.freedesktop.org/"/>
     <remote name="renesas" fetch="https://partnergitlab.renesas.solutions/"/>
-    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="a8afb11859659d63ee9e23cda285b07c64025ee3"/> <!-- android-17-xenvm-trout-ih-main -->
+    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="b1040acc58c25d8e2e7c4c6512cd22ba279a89a0"/> <!-- android-17-xenvm-trout-ih-main -->
     <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="2914ee59c836435f7e98720148fd2929bf0b49ba"/> <!-- main -->
     <project path="vendor/epam/scmitest" name="xen-troops/scmitest" remote="github" revision="defadf50c46ce0ba65dc574a14bdcd5bbeed8394"/> <!-- main -->
     <project path="vendor/epam/evs" name="xen-troops/android_vendor_xen_evs" remote="github" revision="0fc77b6fc3ffd86cbe94daf7a321a91163f7da9d"/> <!-- android-17-ih-main -->
-    <project path="vendor/optee/optee_client" name="OP-TEE/optee_client" remote="github" revision="9f5e90918093c1d1cd264d8149081b64ab7ba672"/> <!-- 4.10 -->
-    <project path="vendor/optee/optee_os" name="x5h-fusion-poc/optee_os" remote="renesas" revision="555f2c0c757bf6f2b849501acfc013c1bd63e496"/> <!-- renesas/rcar-gen5_4.10.0-xt -->
-    <project path="vendor/optee/optee_test" name="xen-troops/optee_test" remote="github" revision="5bd5736287859e19bd30eab6f7396e8dc9178c66"/> <!-- renesas/rcar-gen5_4.10.0-xt -->
+    <project path="vendor/optee/optee_client" name="OP-TEE/optee_client" remote="github" revision="da81fb7b30781029bc9d4acfddc7c60b08deb1f3"/> <!-- 4.11 -->
+    <project path="vendor/optee/optee_os" name="xen-troops/optee_os" remote="github" revision="edd4a3f36c89eb65987680effe4bd0cd623ae102"/> <!-- renesas/rcar-gen5_4.11.0-xt -->
+    <project path="vendor/optee/optee_test" name="xen-troops/optee_test" remote="github" revision="220c12c9dcc52c96aabea92beee1845a3f7d00d5"/> <!-- renesas/rcar-gen5_4.11.0-xt -->
     <project path="vendor/renesas/camera2" name="x5h-fusion-poc/camera2hal" remote="renesas" revision="3afac11656e3abb54cf482b29d9293ea45afc5d7"/> <!-- android-17-main -->
     <remove-project name="platform/external/v4l2_codec2"/>
     <project path="external/v4l2_codec2" name="x5h-fusion-poc/external_v4l2_codec2" remote="renesas" revision="0666dc57651e138bbc535f3ed6e7b2e95bfeb0d3"/>
