@@ -2,7 +2,7 @@
     <remote name="github" fetch="https://github.com/"/>
     <remote name="fd" fetch="https://gitlab.freedesktop.org/"/>
     <remote name="renesas" fetch="https://partnergitlab.renesas.solutions/"/>
-    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="ab857204bb3f37d80441367f41da69791c9ab444"/> <!-- android-17-xenvm-trout-ih-main -->
+    <project path="device/epam/aosp-xenvm-trout" name="xen-troops/android_device_epam_xenvm-trout" remote="github" revision="fc26d45f667cd20f1bd02ad0483c3215b8b77ded"/> <!-- android-17-xenvm-trout-ih-main -->
     <project path="vendor/epam/lisot" name="xen-troops/lisot" remote="github" revision="2914ee59c836435f7e98720148fd2929bf0b49ba"/> <!-- main -->
     <project path="vendor/epam/scmitest" name="xen-troops/scmitest" remote="github" revision="defadf50c46ce0ba65dc574a14bdcd5bbeed8394"/> <!-- main -->
     <project path="vendor/epam/evs" name="xen-troops/android_vendor_xen_evs" remote="github" revision="0fc77b6fc3ffd86cbe94daf7a321a91163f7da9d"/> <!-- android-17-ih-main -->
@@ -10,6 +10,29 @@
     <project path="vendor/optee/optee_os" name="xen-troops/optee_os" remote="github" revision="edd4a3f36c89eb65987680effe4bd0cd623ae102"/> <!-- renesas/rcar-gen5_4.11.0-xt -->
     <project path="vendor/optee/optee_test" name="xen-troops/optee_test" remote="github" revision="220c12c9dcc52c96aabea92beee1845a3f7d00d5"/> <!-- renesas/rcar-gen5_4.11.0-xt -->
     <project path="vendor/renesas/camera2" name="x5h-fusion-poc/camera2hal" remote="renesas" revision="3afac11656e3abb54cf482b29d9293ea45afc5d7"/> <!-- android-17-main -->
+    <project path="hardware/baylibre/optee_hal_rust" name="BayLibre/android_hardware_baylibre_optee_hal_rust" remote="github" revision="aa489b7e5920610e62cae81747e4af42c83dfe30"/> <!-- android-17 -->
+    <project path="vendor/baylibre/optee_ta_rust" name="BayLibre/android_vendor_baylibre_optee_ta_rust" remote="github" revision="251ccf0b3fd29926e88d32a719b5d77c5ee5d488"/> <!-- android-17 -->
+    <project path="external/rust/teaclave-trustzone-sdk" name="BayLibre/android_external_rust_teaclave-trustzone-sdk" remote="github" revision="d6074a645a9d03659c20d61014e4f45bf4ce03b0"/> <!-- android-17_v0.7.0 -->
+    <project path="external/rust/crates/base16ct" name="BayLibre/android_external_rust_crates_base16ct" remote="github" revision="70b636ce63b2d5e1095fd98302fcacf2b6dc3f01"/> <!-- android-17 -->
+    <project path="external/rust/crates/base64ct" name="BayLibre/android_external_rust_crates_base64ct" remote="github" revision="bb65e94fe6a2370604b9bb3087c39f892236e4ca"/> <!-- android-17 -->
+    <project path="external/rust/crates/block-buffer" name="BayLibre/android_external_rust_crates_block-buffer" remote="github" revision="6cb38ad677e9d039f7b74dbb85c16f367c7a821e"/> <!-- android-17 -->
+    <project path="external/rust/crates/cpufeatures" name="BayLibre/android_external_rust_crates_cpufeatures" remote="github" revision="c2bdb2396dce4787e44ef02cffecc77839188f09"/> <!-- android-17 -->
+    <project path="external/rust/crates/crunchy" name="BayLibre/android_external_rust_crates_crunchy" remote="github" revision="52d7ead670bf6a6aa4ca8dd81bb06856b1f31d20"/> <!-- android-17 -->
+    <project path="external/rust/crates/crypto-common" name="BayLibre/android_external_rust_crates_crypto-common" remote="github" revision="671ec47289a0344e9d080202780bacc9080db701"/> <!-- android-17 -->
+    <project path="external/rust/crates/curve25519-dalek" name="BayLibre/android_external_rust_crates_curve25519-dalek" remote="github" revision="c64a9ea8d9be82e1e8b8f7b988fd349da11de05f"/> <!-- android-17 -->
+    <project path="external/rust/crates/curve25519-dalek-derive" name="BayLibre/android_external_rust_crates_curve25519-dalek-derive" remote="github" revision="f9e8cafe31ac2b74e9186c67bca491355115a1c7"/> <!-- android-17 -->
+    <project path="external/rust/crates/digest" name="BayLibre/android_external_rust_crates_digest" remote="github" revision="6e03f89bb90dcd0734c4e337ea686024d8042ca5"/> <!-- android-17 -->
+    <project path="external/rust/crates/ed25519" name="BayLibre/android_external_rust_crates_ed25519" remote="github" revision="3a4715de5205bea2207c423df476b32102ec47f8"/> <!-- android-17 -->
+    <project path="external/rust/crates/ed25519-dalek" name="BayLibre/android_external_rust_crates_ed25519-dalek" remote="github" revision="cec60ae10dd3478d5127d149a60ce6dfa9618d6d"/> <!-- android-17 -->
+    <project path="external/rust/crates/fiat-crypto" name="BayLibre/android_external_rust_crates_fiat-crypto" remote="github" revision="a27763e111fb18f9b873d47eecf99d5d894e534f"/> <!-- android-17 -->
+    <project path="external/rust/crates/generic-array" name="BayLibre/android_external_rust_crates_generic-array" remote="github" revision="a54615b3c0d69b3de52ccc6a7b967446bcf77817"/> <!-- android-17 -->
+    <project path="external/rust/crates/libc_alloc" name="BayLibre/android_external_rust_crates_libc_alloc" remote="github" revision="2ca275d2f261ddd6b9ab1a965758f78858296a20"/> <!-- android-17 -->
+    <project path="external/rust/crates/rustc_version" name="BayLibre/android_external_rust_crates_rustc_version" remote="github" revision="0051c21f0f471deea58ed7881523bea9660ff7fa"/> <!-- android-17 -->
+    <project path="external/rust/crates/sha2" name="BayLibre/android_external_rust_crates_sha2" remote="github" revision="84797fc2401652dd3f64aa0d3a568d18ffb530be"/> <!-- android-17 -->
+    <project path="external/rust/crates/signature" name="BayLibre/android_external_rust_crates_signature" remote="github" revision="25cb3bbf0c7ad30396297c5236715b41e749f48d"/> <!-- android-17 -->
+    <project path="external/rust/crates/typenum" name="BayLibre/android_external_rust_crates_typenum" remote="github" revision="9698f827155d5b3ad6efbd04306155e024c94661"/> <!-- android-17 -->
+    <project path="external/rust/crates/version_check" name="BayLibre/android_external_rust_crates_version_check" remote="github" revision="6d31b251e1a9c971babec5907225854a3f1ee2c9"/> <!-- android-17 -->
+    <project path="external/rust/crates/x25519-dalek" name="BayLibre/android_external_rust_crates_x25519-dalek" remote="github" revision="f87ac8276afeac74c51b3fd657e82b7f4f5aba86"/> <!-- android-17 -->
     <remove-project name="platform/external/v4l2_codec2"/>
     <project path="external/v4l2_codec2" name="x5h-fusion-poc/external_v4l2_codec2" remote="renesas" revision="0666dc57651e138bbc535f3ed6e7b2e95bfeb0d3"/>
 </manifest>
